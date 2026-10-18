@@ -1,0 +1,4 @@
+# Dependências do Scanner Full
+PySide6
+pyqtgraph
+obd  # python-OBD: somente necessário para o "Modo Carro Real" (ELM327)

@@ -1,0 +1,33 @@
+SCANNER FULL - Guia de instalação no notebook
+==============================================
+
+1. Extraia este ZIP para C:\Scanner-Full
+   (mantenha a pasta "pecas" ao lado do scanner_full.py)
+
+2. Clique duas vezes em instalar.bat e aguarde.
+   - Se o Python não estiver instalado, ele tenta instalar sozinho
+     (depois é só rodar o instalar.bat de novo).
+   - Ele cria o ambiente, instala as dependências e deixa um
+     atalho "Scanner Full" na Área de Trabalho.
+
+3. Pronto! Abra pelo atalho ou pelo iniciar_scanner.bat.
+
+MODO CARRO REAL (ELM327)
+------------------------
+1. Pareie o adaptador ELM327 no Bluetooth do Windows.
+2. Plugue o ELM327 na porta OBD2 do carro (embaixo do painel,
+   lado do motorista).
+3. Abra o Scanner Full e clique no botão
+   "Modo: SIMULAÇÃO" para alternar para "CARRO REAL".
+
+ATUALIZAÇÕES AUTOMÁTICAS
+-------------------------
+O app verifica sozinho se há versão nova ao abrir (e pelo botão
+"Verificar atualizações" no topo). Se houver, ele baixa e instala
+por cima — é só reiniciar. Chega de baixar zip!
+
+GERAR UM .EXE ÚNICO (opcional)
+------------------------------
+Execute gerar_exe.bat para criar dist\ScannerFull.exe:
+um executável único que roda sem instalar nada.
+É só copiar para o notebook e abrir.
